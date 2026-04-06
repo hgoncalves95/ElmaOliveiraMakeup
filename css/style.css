@@ -384,3 +384,14 @@ h2 {
   font-size: 15px;
   line-height: 1.9;
 }
+
+.fade-up {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.fade-up.active {
+  opacity: 1;
+  transform: translateY(0);
+}
